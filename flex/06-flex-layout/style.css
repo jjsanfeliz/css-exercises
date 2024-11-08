@@ -24,3 +24,40 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+
+.header, .footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.footer{
+  background-color: #eeeeee;
+}
+.left-links,.right-links{
+  display: flex;
+}
+.left-links{
+  margin-right: auto;
+}
+.right-links{
+  margin-left: auto;
+}
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: gray;
+}
+ul {
+  list-style-type: none;
+  gap: 16px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 200px 200px;
+  gap:10px;
+}
