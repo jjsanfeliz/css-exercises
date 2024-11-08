@@ -24,3 +24,27 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.title{
+  justify-content: center;
+  display: flex;
+}
+
+.foods{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 52px;
+}
+
+.food{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text{
+  width: 200px;
+  flex-wrap: wrap;
+}
